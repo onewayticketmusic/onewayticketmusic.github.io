@@ -1,13 +1,13 @@
 # Site settings
 
-url: "http://panossakkos.github.io"
-title: "{ Panos Sakkos }"
-description: "Blog of Panos Sakkos, blogging mainly about tech. Opinions expressed are mine."
-keywords: "panos, sakkos, technology, computer science, Pwn Mail, WriteRight, UoA, di, CERN, MDCN, Microsoft, Office Graph, Machine Learning, Databases, jekyll"
+url: "http://onewayticketmusic.github.io"
+title: "{ One Way Ticket }"
+description: "We Are One Way Ticket"
+keywords: "One Way Ticket"
 favicon: "/img/favicon.ico"
 black-favicon: "/img/black-lab-glass.ico"
-google-tracking-id: "UA-35880426-3"
-disqus-shortname: "panossakkos"
+google-tracking-id: ""
+disqus-shortname: ""
 
 # Navigation bar links
 # Blog link in the blog and post pages will point to the blog.html#blog
