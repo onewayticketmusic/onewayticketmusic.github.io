@@ -14,8 +14,8 @@ disqus-shortname: ""
 # In the default page it will point to the preview of the last post
 
 pages_list:
-  About: 'about'
   Blog: 'blog'
+  About: 'about'
   Career: 'career'
   Contact: 'contact'
 
