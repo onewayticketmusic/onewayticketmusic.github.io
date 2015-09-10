@@ -15,7 +15,7 @@ disqus-shortname: ""
 
 pages_list:
 #  About: 'about'
-  Videos: 'blog'
+  Videos: 'video'
 # Music: 'career'
   Tour: 'tour'
   Contact: 'contact'
@@ -30,7 +30,7 @@ me-img: "/img/drawing.png"
 
 paginate: 15
 
-paginate_path: "blog/page:num"
+paginate_path: "video/page:num"
 
 post-preview-words: 128
 
