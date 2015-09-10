@@ -17,6 +17,7 @@ pages_list:
 #  About: 'about'
   Videos: 'blog'
   Music: 'career'
+  Tour: 'tour'
   Contact: 'contact'
 
 background-img: "/img/intro-bg.jpg"
