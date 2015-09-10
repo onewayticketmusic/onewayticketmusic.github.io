@@ -16,7 +16,7 @@ disqus-shortname: ""
 pages_list:
 #  About: 'about'
   Videos: 'blog'
-  Music: 'career'
+# Music: 'career'
   Tour: 'tour'
   Contact: 'contact'
 
