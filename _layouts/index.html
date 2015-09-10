@@ -10,22 +10,18 @@
   {% include header.html %}
 
   {% for page in site.pages %}
-<!--
 
-    {% if page.section-type == "about" %}
+    {% if page.section-type == "about.vold" %}
 
       {% include about.html %}
--->
 
     {% elsif page.section-type == "latest-post" %}
 
       {% include latest-post.html %}
 
-<!--
-    {% elsif page.section-type == "career" %}
+    {% elsif page.section-type == "career.vold" %}
 
       {% include career.html %}
--->
 
     {% elsif page.section-type == "tour" %}
 

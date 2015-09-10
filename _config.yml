@@ -62,7 +62,7 @@ reddit-share: True
 
 # First image of the Career timeline
 
-career-img: "/img/career/default.jpg"
+#career-img: "/img/career/default.jpg"
 
 # Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
 
