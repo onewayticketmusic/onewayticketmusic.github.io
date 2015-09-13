@@ -32,7 +32,7 @@
                 {% else %}
                   <!-- Blog, Post, Tag pages-->
                   {% for p in site.pages_list %}
-                    {% if page.section-type == "blog" and p[0] == "Videos" %}
+                    {% if page.section-type == "latest-post" and p[0] == "Videos" %}
                       <!-- Blog button in blog.html doesn't refresh the page -->
                       <li>
                         <a class="page-scroll" href="#videos"> {{ p[0] }} </a>
