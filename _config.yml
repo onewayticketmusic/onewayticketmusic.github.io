@@ -18,6 +18,8 @@ pages_list:
   Tour: 'tour'
   Contact: 'contact'
 
+#Test
+
 background-img: "/img/intro-bg.jpg"
 
 # About variables
