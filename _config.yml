@@ -15,8 +15,8 @@ disqus-shortname: ""
 
 pages_list:
   Videos: 'blog'
-  Tour: 'tour'
   Contact: 'contact'
+  Tour: 'tour'
 
 #Test2
 
