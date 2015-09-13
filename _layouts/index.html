@@ -23,6 +23,10 @@
 
       {% include tour.html %}
 
+    {% elsif page.section-type == "contact" %}
+
+      {% include contact.html %}
+
     {% endif %}
 
   {% endfor %}
