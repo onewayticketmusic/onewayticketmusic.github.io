@@ -11,7 +11,23 @@
 
   {% for page in site.pages %}
 
-    {{ page }}
+    {% if page.section-type == "about.vold" %}
+
+          {% include about.html %}
+
+        {% elsif page.section-type == "latest-post" %}
+
+          {% include latest-post.html %}
+
+        {% elsif page.section-type == "aour" %}
+
+          {% include aour.html %}
+
+        {% elsif page.section-type == "contact" %}
+
+          {% include contact.html %}
+
+        {% endif %}
 
   {% endfor %}
 
