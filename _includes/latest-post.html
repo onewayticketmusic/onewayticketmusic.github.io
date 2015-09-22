@@ -11,11 +11,9 @@
               <small>. {{ post.category }} .</small>
               <strong> <a href="{{ post.url }}">{{ post.title }} </a> </strong>
             </h4>
-
-            {{ post.content | markdownify }}
+          {{ post.content | markdownify }}
           {% endfor %}
-
-        <h4><strong><a href="/blog/index.html">More</a></strong></h4>
+          <br />
       </div>
     </div>
 </section>
