@@ -1,7 +1,6 @@
 ![Build Status](https://travis-ci.org/PanosSakkos/panossakkos.github.io.svg?branch=master)
 
+Credit
 # { Panos Sakkos }
-
-Website and Blog of [Panos Sakkos](http://panossakkos.github.io), built with [jekyll](jekyllrb.com)
-
+Website (http://panossakkos.github.io)
 Theme: [Personal Jekyll Theme](https://github.com/PanosSakkos/personal-jekyll-theme)
