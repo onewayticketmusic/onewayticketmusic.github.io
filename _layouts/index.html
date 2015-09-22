@@ -19,6 +19,10 @@
 
           {% include latest-post.html %}
 
+        {% elsif page.section-type == "music" %}
+
+          {% include music.html %}
+
         {% elsif page.section-type == "tour" %}
 
           {% include tour.html %}
