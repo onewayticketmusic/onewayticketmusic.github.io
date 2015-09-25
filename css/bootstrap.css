@@ -56,6 +56,8 @@ abbr[title] {
 b,
 strong {
   font-weight: bold;
+  font-family: LABTOPB_;
+  font-size: 45px;
 }
 dfn {
   font-style: italic;
