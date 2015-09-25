@@ -11,7 +11,7 @@
 
   {% for page in site.pages %}
 
-        {% elsif page.section-type == "latest-post" %}
+        {% if page.section-type == "latest-post" %}
 
           {% include latest-post.html %}
 
