@@ -9,7 +9,7 @@
 
     {% include header.html %}
 
-  {% for page in site.pages %}
+    {% for page in site.pages %}
 
         {% if page.section-type == "latest-post" %}
 
@@ -27,13 +27,9 @@
 
           {% include contact.html %}
 
-        {% else %}
-
-            {{ site.pages }}
-
         {% endif %}
 
-  {% endfor %}
+    {% endfor %}
 
     {% include footer.html %}
 
