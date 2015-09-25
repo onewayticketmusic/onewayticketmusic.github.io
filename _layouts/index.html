@@ -10,7 +10,25 @@
   {% include header.html %}
 
   {% for page in site.pages %}
-      {{ page }}
+
+        {% if page.section-type == "latest-post" %}
+
+          {% include latest-post.html %}
+
+        {% elsif page.section-type == "music" %}
+
+          {% include music.html %}
+
+        {% elsif page.section-type == "tour" %}
+
+          {% include tour.html %}
+
+        {% elsif page.section-type == "contact" %}
+
+          {% include contact.html %}
+
+    {% endif %}
+
   {% endfor %}
 
   {% include footer.html %}
