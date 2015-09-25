@@ -9,28 +9,29 @@
 
     {% include header.html %}
 
-      {% for page in site.pages %}
+    {% for page in site.pages %}
+    {% if page.section-type == "latest-post" %}
+    {% include latest-post.html %}
+    {% endif %}
+    {% endfor %}
 
-            {% if page.section-type == "latest-post" %}
+    {% for page in site.pages %}
+    {% if page.section-type == "music" %}
+    {% include music.html %}
+    {% endif %}
+    {% endfor %}
 
-              {% include latest-post.html %}
+    {% for page in site.pages %}
+    {% if page.section-type == "tour" %}
+    {% include tour.html %}
+    {% endif %}
+    {% endfor %}
 
-            {% elsif page.section-type == "music" %}
-
-              {% include music.html %}
-
-            {% elsif page.section-type == "tour" %}
-
-              {% include tour.html %}
-
-            {% elsif page.section-type == "contact" %}
-
-              {% include contact.html %}
-
-            {% endif %}
-
-      {% endfor %}
-
+    {% for page in site.pages %}
+    {% if page.section-type == "contact" %}
+    {% include contact.html %}
+    {% endif %}
+    {% endfor %}
 
     {% include footer.html %}
 
