@@ -4031,8 +4031,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 30px;
-    padding-bottom: 34px;
+    padding-top: 34px;
+    padding-bottom: 30px;
   }
 }
 .navbar-form {
