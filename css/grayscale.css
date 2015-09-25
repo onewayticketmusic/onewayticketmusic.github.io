@@ -33,13 +33,17 @@ h6 {
     letter-spacing: 1px;
 }
 
+h2 {
+  font-family: 'labtop-outline', Fallback, sans-serif;
+}
+
 @font-face {
   font-family: 'labtop-outline';
   src: url('/fonts/labtop-outline.ttf')  format('truetype')
 }
-
-h2 {
-  font-family: 'labtop-outline', Fallback, sans-serif;
+@font-face {
+  font-family: 'LABTOPB_';
+  src: url('/fonts/LABTOPB_.ttf')  format('truetype')
 }
 
 
@@ -68,6 +72,7 @@ a {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+    font-family: 'LABTOPB_', Fallback, sans-serif;
 }
 
 a:hover,
