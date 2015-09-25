@@ -134,7 +134,7 @@ a:focus {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
-    font-family: labtop-outline;
+    font-family: LABTOPB_;
     font-size: 60px;
 }
 
