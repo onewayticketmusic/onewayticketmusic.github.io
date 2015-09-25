@@ -10,29 +10,7 @@
   {% include header.html %}
 
   {% for page in site.pages %}
-
-    {% if page.section-type == "about.vold" %}
-
-          {% include about.html %}
-
-        {% elsif page.section-type == "latest-post" %}
-
-          {% include latest-post.html %}
-
-        {% elsif page.section-type == "music" %}
-
-          {% include music.html %}
-
-        {% elsif page.section-type == "tour" %}
-
-          {% include tour.html %}
-
-        {% elsif page.section-type == "contact" %}
-
-          {% include contact.html %}
-
-        {% endif %}
-
+      {{ page }}
   {% endfor %}
 
   {% include footer.html %}
