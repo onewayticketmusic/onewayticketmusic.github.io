@@ -1,39 +1,22 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
-  {% include head.html %}
+    {% include head.html %}
 
-  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-  {% include navigation.html %}
+    {% include navigation.html %}
 
-  {% include header.html %}
+    {% include header.html %}
 
-  {% for page in site.pages %}
+    {% include latest-post.html %}
+    {% include music.html %}
+    {% include tour.html %}
+    {% include contact.html %}
 
-        {% if page.section-type == "latest-post" %}
+    {% include footer.html %}
 
-          {% include latest-post.html %}
-
-        {% elsif page.section-type == "music" %}
-
-          {% include music.html %}
-
-        {% elsif page.section-type == "tour" %}
-
-          {% include tour.html %}
-
-        {% elsif page.section-type == "contact" %}
-
-          {% include contact.html %}
-
-    {% endif %}
-
-  {% endfor %}
-
-  {% include footer.html %}
-
-  {% include js.html %}
+    {% include js.html %}
 
 </body>
 </html>
