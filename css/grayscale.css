@@ -22,7 +22,6 @@ html {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -33,6 +32,17 @@ h6 {
     font-weight: 700;
     letter-spacing: 1px;
 }
+
+@font-face {
+  font-family: 'LABTOP';
+  src: url('/fonts/LABTOP__.ttf')  format('truetype')
+}
+
+h2 {
+  font-family: 'MyWebFont', Fallback, sans-serif;
+}
+
+
 
 p {
     margin: 0 0 25px;
