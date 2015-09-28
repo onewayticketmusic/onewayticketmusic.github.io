@@ -22,12 +22,6 @@
     {% endfor %}
 
     {% for page in site.pages %}
-    {% if page.section-type == "tour" %}
-    {% include tour.html %}
-    {% endif %}
-    {% endfor %}
-
-    {% for page in site.pages %}
     {% if page.section-type == "contact" %}
     {% include contact.html %}
     {% endif %}
